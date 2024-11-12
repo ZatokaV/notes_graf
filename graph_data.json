@@ -1,4 +1,50 @@
 {
-    "vertices": [],
-    "connections": []
+    "vertices": [
+        {
+            "note": "test text 1",
+            "x": 127,
+            "y": 56,
+            "radius": 30
+        },
+        {
+            "note": "test text 2",
+            "x": 123,
+            "y": 283,
+            "radius": 30
+        },
+        {
+            "note": "test text 3 test text 3 test text 3",
+            "x": 396,
+            "y": 208,
+            "radius": 50
+        },
+        {
+            "note": "test text 4 test text UPD 14",
+            "x": 310,
+            "y": 75,
+            "radius": 52
+        }
+    ],
+    "connections": [
+        {
+            "vertex1": 0,
+            "vertex2": 1
+        },
+        {
+            "vertex1": 1,
+            "vertex2": 2
+        },
+        {
+            "vertex1": 3,
+            "vertex2": 1
+        },
+        {
+            "vertex1": 3,
+            "vertex2": 2
+        },
+        {
+            "vertex1": 3,
+            "vertex2": 0
+        }
+    ]
 }
