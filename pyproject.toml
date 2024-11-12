@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "huawei-test"
+version = "0.1.0"
+description = ""
+authors = ["Vitalii Zatoka <zatokav@gmail.com>"]
+readme = "README.md"
+packages = [{include = "huawei_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
